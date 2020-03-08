@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script\lib\d3.js"></script>
+    <title>Nava</title>
+</head>
+<body>
+    <div id="main-div">
+        <span id= 'span-queries-infos'>
+        <input id = "btn-benavaz" class = "class-btn-start" type="button" value="BeNavaz" onclick="BeNavaz()"> 
+        <select id ="select-input-gahs" onchange="if (this.selectedIndex) setIntervalsonBoard(this[selectedIndex].value,'selected')">
+            <option value="">- Gah</option>
+        </select>
+        
+        <input type="text" name="" class = "class-input-getquery" value="" id="input-gahs" onfocusout="gridThecostumeGah()">
+        <input id = "btn-8ganLeft" class = "class-btn-8gan-left" type="button" value="&#10094;" onclick="SetHasht('left')"> 
+        <input id = "btn-8ganRast" class = "class-btn-8gan-rast" type="button" value="&#10095;" onclick="SetHasht('rast')"> 
+        <select id ="select-input-waveforms" onchange="if (this.selectedIndex) setWaveForm(this[selectedIndex].value,'selected')">
+                <option value="0,0,0,0,0,0,0,0,0,0,0,0|0,0,0,0,0,0,0,0,0,0,0,0">- Saz</option>
+                <option value="1,1,0,0,0,0,0,0,0,0,0,0|0,0,0,0,0,0,0,0,0,0,0,0">|1|</option>
+                <option value="1,.9,0,0,0,0,0,.1,0,0,0,0|0,0,0,0,0,0,0,0,0,0,0,0">|1|7|</option>
+                <option value="1,.949,0,0,0,0,0,0,.03,.02,0,.001|0,0,0,0,0,0,0,0,0,0,0,0">|1|8|9|11|</option>
+                <option value="1,.95,.03,.02,0,0,0,0,0,0,0,0|0,0,0,0,0,0,0,0,0,0,0,0">|1|2|3|</option>
+                <option value="1,.9,0,0,0,.1,0,0,0,0,0,0|0,0,0,0,0,0,0,0,0,0,0,0">|1|5|</option>
+                <option value="1,.9,0,0,0,.1,0,0,.03,.02,0,.001|0,0,0,0,0,0,0,0,0,0,0,0">|1|5|8|9|11|</option>
+              </select>
+            <input type="text" name="" class = "class-input-getquery" value="0,1,0,0,0,0,0,0,0,0,0,0|0,0,0,0,0,0,0,0,0,0,0,0" id="input-waveShape" onfocusout="setWaveForm(this.value,'costumArr')">
+
+
+            <input id = "btn-MousePlay" class = "btn-mouse" type="button" value="&#128431;" onclick="BeginPlay()"> 
+            
+            <input id = "btn-multitouchPlay" class = "btn-touch" type="button" value="&#128401;" onclick="BeginPlayMultitouch()"> 
+
+
+            <input id = "btn-repo-ParsiNava" class = "btn-rep" type="button" value="&#10049;" onclick="addParsiNava()"> 
+
+            <span id = "span-BeNavaz"></span>
+            <span id = "span-mouse"></span>
+            <span id = "span-touch"></span>
+            <span id = "resultQuery" style="visibility: hidden;"></span>    
+
+          </span>       
+    </div>
+</body>
+<script src="script\sepehr.js"></script>
+<script src="script\nava.js"></script>
+<script src="script\script.js"></script>
+<script src="script\Naghmeha.js"></script>
+
+</html>
+
+
+
+

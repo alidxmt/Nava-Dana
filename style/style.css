@@ -1,0 +1,273 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+
+  }
+#main-div {
+    padding-top: 5px;
+    height: 100%;
+    background: rgb(71, 71, 71);
+    touch-action: none;
+}
+#main-svg {
+    width: 100%;
+    height: 100%;
+}
+#navaboard-rect { 
+  width: 100%;
+  height: 100%;
+  fill:rgb(255, 255, 255);
+  cursor: crosshair;
+}
+#navaboard-base-rect {
+  
+  width: 100%;
+  height: 100%;
+  fill: rgb(63, 62, 63);
+}
+
+
+.class-btn-start {
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: none;
+  width: 80px;
+  height: 26px;
+  margin: 5px;
+  background-color:  rgb(63, 62, 63);
+}
+
+.class-btn-Benavaz-started {
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: none;
+  width: 80px;
+  height: 26px;
+  margin: 5px;
+  background-color:  rgb(48, 47, 48);
+}
+
+
+
+
+.main-svg-class {
+}
+
+
+
+.grid-path-class {
+}
+
+
+
+.btn-rep {
+  margin: 5px;
+  width: 24px;
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin-left: 0;
+}
+
+.class-inp-start {
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  width: 80px;
+  height: 26px;
+  margin: 5px;
+  background-color:  rgb(63, 62, 63);
+}
+
+
+.class-btn-8gan-left {
+  color: rgb(161, 161, 161);
+  border-radius: 9px 0px 0px 9px;
+  border: none;
+  /* border-width: 4px; */
+  width: 18px;
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin: 5px;
+  margin: 0;
+  padding: 0;
+  padding-left: 2px;
+  /* padding-left: 15px; */
+}
+
+
+.class-btn-8gan-rast {
+  color: rgb(161, 161, 161);
+  border-radius: 0px 9px 9px 0px;
+  border: none;
+  /* border-width: 4px; */
+  width: 18px;
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin: 0;
+  padding: 0;
+  padding-right: 2px;
+  /* padding-left: 15px; */
+}
+
+
+.class-input-getquery {
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: none;
+  /* border-width: 4px; */
+  width: 240px;
+  height: 26px;
+  background-color:  rgb(63, 62, 63);
+  margin: 5px;
+  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* padding-left: 15px; */
+}
+.class-output {
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: none;
+  /* border-width: 4px; */
+  width: 240px;
+  height: 42px;
+  background-color:  rgb(63, 62, 63);
+  margin: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#span-queries-infos :hover {
+  background: rgb(49, 49, 49);
+}
+
+
+#span-queries-infos :focus {
+  background: rgb(49, 49, 49);
+}
+
+
+#span-BeNavaz {
+  font-size: small;
+  padding-left: 5px;
+  color: rgb(146, 150, 161);
+}
+#span-touch {
+  font-size: small;
+  padding-left: 5px;
+  color: rgb(155, 146, 161);
+
+}
+
+#span-mouse {
+  font-size: small;
+  padding-left: 5px;
+  color: rgb(146, 157, 161);
+}
+
+
+#resultQuery {
+  font-size: small;
+  padding-left: 15px ;
+  color: gray;
+}
+
+#input-waveShape {
+
+  max-width:70px;
+}
+
+circle {
+  z-index : 12;
+}
+
+select {
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 1px; */
+  max-width:70px;
+  height: 28px;
+  margin: 5px;
+  background-color:  rgb(63, 62, 63);
+  padding-left: 8px;
+}
+
+.btn-touch {
+  margin: 5px;
+  width: 24px;
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin-left: 0;
+}
+
+.btn-touch-started {
+  margin: 5px;
+  width: 24px;
+  color: rgb(226, 226, 226);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(48, 47, 48);
+  margin-left: 0;
+}
+.btn-touch-paused {
+  margin: 5px;
+  width: 24px;
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin-left: 0;
+}
+
+
+.btn-mouse {
+  margin: 5px;
+  width: 24px;
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin-right: 0;
+}
+
+
+.btn-mouse-started {
+  margin: 5px;
+  width: 24px;
+  color: rgb(226, 226, 226);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(48, 47, 48);
+  margin-right: 0;
+}
+
+.btn-mouse-paused {
+  margin: 5px;
+  width: 24px;
+  color: rgb(161, 161, 161);
+  border-radius: 9px;
+  border: dimgray;
+  /* border-width: 4px; */
+  height: 28px;
+  background-color:  rgb(63, 62, 63);
+  margin-right: 0;
+}
